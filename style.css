@@ -1,0 +1,147 @@
+
+*{
+	box-sizing: border-box;
+}
+.row:after {
+	content: "";
+	clear: both; 
+	display: block;
+}
+[class*="col-"] {
+	float: left; 
+	padding: 0;	
+}
+.col-1	{width: 8.33%;}
+.col-2	{width: 17.16%;}
+.col-3	{width:	25%;}
+.col-4	{width: 33.33%;}
+.col-5	{width: 41.66%;}
+.col-6	{width: 50%;}
+.col-7	{width: 58.33%;}
+.col-8	{width: 66.66%;}
+.col-9	{width:	75%;}
+.col-10	{width: 82.33%;}
+.col-11	{width:	91.55%;}
+.col-12	{width: 100%;}
+html{
+font-family:"Lucida Sans" ,sans-serif;
+}
+
+.header {
+	background-color: white;
+	text-align: center;
+	font-size: 15px;
+	color: blue;
+	padding: 15px;
+	font-family: arial black;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+	float: left;
+	line-height: 0px;
+}
+
+#logo {
+	width: 80px;
+	height: 80px;
+	float: right;
+	line-height: 0px;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 1249px;
+
+}
+.menu li {
+padding: 8px;
+margin-bottom: 15px;
+background-color :darkblue; 
+color: #ffffff;
+box-shadow: 0 1px 3px rgba
+(0,0,0,0.12), 0 1px 2px rgba
+(0,0,0,0.24);
+}
+.menu li:hover {
+	background-color: #0099cc;
+}
+#p {
+	margin-top: 300px;
+	width: 610px;
+	height: 200px;
+	float: right;
+	color: white;
+	text-align: center;
+	line-height: 28px;
+	background-color: blue;
+	font-family: arial black;
+	font-size: 15px;
+	position: absolute;
+}
+
+#p1 {
+	margin-top: 300px;
+	width: 610px;
+	height: 200px;
+	float: right;
+	color: white;
+	text-align: center;
+	line-height: 28px;
+	background-color: darkblue;
+	font-family: arial black;
+	font-size: 16px;
+}
+
+#p2 {
+	margin-top: 550px;
+	text-align: center;
+}
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	padding: 0px;
+	background-color: blue;
+}
+audio {
+	max-width: 50%;
+	height: auto;
+	background-color: black;
+}
+element {
+}
+#UI_goUp {
+	margin-top: 0px;
+	float: left;
+}
+p {
+	font-size: 110%;
+}
+
+.box2 {
+	width: 300px;
+	height: 1415px;
+	background-color: darkblue;
+	right: 330px;
+	text-align: center;
+	position: absolute;
+	background-attachment: fixed;
+	top: 160px;
+}
+
+.box1 {
+	width: 300px;
+	height: 1415px;
+	background-color: darkblue;
+	left: 310px;
+	text-align: center;
+	position: absolute;
+	background-attachment: fixed;
+	top: 0px;
+}
